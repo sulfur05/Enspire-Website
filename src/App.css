@@ -1,0 +1,278 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face{
+  font-family: 'track' ;
+  src: local('Track-Regular.otf'),
+  url(./fonts/Track-Regular.otf);
+}
+
+@font-face{
+  font-family: 'track-italic';
+  src: url(./fonts/Track-RegularItalic.otf);
+}
+
+
+#root{
+    --secondary-text-color: #DCF2F1;
+    --primary-text-color: #5ce1e6;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: black;
+}
+
+.container{
+    max-width: 1400px;
+    margin-top: 0rem;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+    
+}
+
+.containerTeam{
+  max-width: 1400px;
+  margin-top: 0rem;
+  display: flex;
+  gap: 0px;
+  justify-content: space-between;
+  margin-inline: auto;
+  
+}
+
+nav .logo img {
+    width: 3rem;
+    margin-top: 0.2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    /* margin-inline: auto; */
+}
+
+nav ul li{
+    color: var(--secondary-text-color);
+}
+
+nav ul li>a {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
+
+nav{
+    background-color: black;
+    height: 4.5rem;
+}
+
+nav .logo2 img{
+    width: 2rem;
+    margin-top: 0.2rem;
+}
+
+/* .video{
+    height: 1;
+} */
+
+video{
+    position: absolute;
+}
+
+/* .video{
+  height: 1500px;
+} */
+
+.mainContent{
+    position: relative;
+    left: 800px;
+    top: 120px;
+    color: white;
+    font-size: 130px;
+    width: 700px;
+    text-align: left;
+
+}
+
+.E{
+    color: var(--primary-text-color);
+}
+
+.flexVertical{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.smallText{
+    display: inline;
+    font-size: 40px;
+    /* text-align: ; */
+    width: 500px;
+    text-align: left;
+   
+}
+
+
+
+.flexVertical img{
+    height: 80px;
+    width: 200px;
+    margin-top: 140px;
+    margin-left: 450px;
+}
+
+/* Sponsors CSS */
+.height{
+  height: 180px;
+  color: black;
+  position: relative;
+  top: 170px;
+  background-color: #0F1035;
+  
+}
+
+.flex{
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+  
+
+}
+
+.sponsors img{
+  width: 300px;
+  height: 80px;
+  margin-top: 40px;
+  animation: scrolling 10s linear infinite;
+}
+
+/* @keyframes scrolling{
+  0%{transform: translateX(0px);}
+  100%{transform: translateX(1300px);}
+} */
+
+Marquee{
+  direction: right;
+}
+
+/*Vertical TImeline CSS*/
+
+/* div.heading{
+  margin-top: 200px;
+  z-index: 2;
+} */
+.heading{
+  margin-top: 300px;
+  background: black;
+  color: #C7DAFA;
+  text-shadow: #0F1035;
+  /* font-size :20px ; */
+  font-family: 'track';
+}
+
+.heading h1{
+  margin-top: 200px;
+  /* font-size: 20px; */
+}
+
+
+
+.green{
+  color: #5ce1e6;
+  
+}
+
+.eventNames>p{
+  font-size: 10px;
+}
+
+/*MERCH CSS*/
+
+/* .ourmerch{
+  margin-top: 200px;
+  color: white;
+} */
+
+div.carousel.slide.carousel-fade{
+  width:300px;
+height: 350px;
+}
+
+img.imagess{
+  width: 300px;
+}
+
+.ourmerch{
+  margin-top: 200px;
+  height: 500px;
+}
+.flex2{
+  display: flex;
+  gap: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+div.heading{
+  margin-top:0px;
+  
+}
+
+.heading h1{
+  font-size: 50px;
+  color: white;
+}
+
+/*footer css*/
+
+.bgcolor{
+  background: #0F1035;
+}
+
+.flex3{
+  display: flex;
+}
+
+.footerEn{
+  color: #5ce1e6;
+}
+
+.heading2{
+  font-size: 100px;
+}
+
+.bgblue{
+  background:rgb(113, 113, 113) ;
+}
+
+.labels{
+  color:#dcf2f1;
+}
+
+Footer{
+  margin-top: 70px;
+}
+
+.bgcontact{
+  background-color: black;
+}
+
+.coordiMem{
+  display: flex;
+}
+
